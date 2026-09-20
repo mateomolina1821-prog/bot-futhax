@@ -82,7 +82,7 @@ function checkLogros(uid, eventType, value = 1) {
   return newlyUnlocked;
 }
 
-// Helper para anunciar logros desbloqueados en el canal
+// Helper para anunciar logros desbloqueados en el canal e
 // Úsalo así: await announceLogros(message, logrosArray);
 async function announceLogros(message, logros) {
   for (const l of logros) {
